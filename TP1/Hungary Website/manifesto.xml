@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifesto>
+    <meta>
+        <titulo>Trabalho Prático 1</titulo>
+        <subtitulo>Página de <i>html</i> de Hungria</subtitulo>
+        <date>2023-02-18</date>
+        <autor>
+            <nome>Jorge Lima</nome>
+            <id>pg50506</id>
+            <gitlink>https://github.com/LCMJ21/RPCW2023</gitlink>
+        </autor>
+        <uc>Representação e Processamento de Conhecimento na Web</uc>
+        <version>1.0</version>
+    </meta>
+    <resumo>
+        <p>O objetivo deste projeto é a criação de uma página de <i>html</i> da Hungria</p>
+        <p>Foi criado inicialmente um ficheiro de <i>css</i> para dar algum estilo a página</p>
+        <p>Foi criado a página <i>html</i> sobre a Hungria, em que é disposto alguma informação sobre pontos de interesse do país.</p>
+    </resumo>
+    <resultados>
+        <resultado path="hungary.html">Página de <i>html</i> de Hungria</resultado>
+        <resultado path="hungary.css">Estilo da página de <i>html</i> de Hungria</resultado>
+    </resultados>
+</manifesto>
