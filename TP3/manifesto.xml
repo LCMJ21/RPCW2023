@@ -13,12 +13,17 @@
         <version>1.0</version>
     </meta>
     <resumo>
-        <p>O objetivo deste projeto é a criação de um servidor em que é possível aceder aos dados no <i>dataset</i> fornecido</p>
-        <p>A primeira tarefa é processar os dados no <i>dataset</i>, através de um programa em Python, gerando 122 ficheiros <i>xml</i> e <i>html</i>, além de um índice html</p>
-        <p>É Posteriormente criado o servidor em que é disponibilizado um índice em que é possível aceder aos <i>htmls</i> gerados no passo anterior</p>
+        <p>O objetivo deste projeto é a criação de um servidor em que é possível explorar os dados no <i>dataset</i> fornecido</p>
+        <p>A primeira tarefa é expor todos os utilizadores no <i>dataset</i>, através de uma tabela com os dados id, nome, idade, sexo e cidade</p>
+        <p>Depois é criado a pagina que expõe toda a informação de cada utilizador e na tabela acima referida é adiciona links nos <i>ids</i> para estas paginas</p>
+        <p>O servidor agora permite o acesso a uma <i>homepage</i> que contém um botão para visualizar todos os utilizadores</p>
+        <p>Na <i>homepage</i> é adicionada uma divisão com a distribuição percentual decrescente por sexo com <i>links</i> para encontrar todos os utilizadores de cada sexo</p>
+        <p>Na <i>homepage</i> é adicionada uma divisão com a distribuição percentual decrescente por desporto com <i>links</i> para encontrar todos os utilizadores de cada desporto</p>
+        <p>Na <i>homepage</i> é adicionada uma divisão com a distribuição percentual decrescente das top 10 profissões: com <i>links</i> para encontrar todos os utilizadores de cada profissão</p>
     </resumo>
     <resultados>
-        <resultado path="server.js">O servidor que permite fazer</resultado>
-        <resultado path="mypage.js">Servidor com os conteúdos</resultado>
+        <resultado path="dataset-extra1.json"><i>Dataset</i> com os dados dos utlizadores</resultado>
+        <resultado path="server.js">O servidor que permite fazer todos os diferentes pedidos</resultado>
+        <resultado path="mypage.js">Funções que geram as páginas html</resultado>
     </resultados>
 </manifesto>
