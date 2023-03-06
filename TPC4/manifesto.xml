@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifesto>
+    <meta>
+        <titulo>Trabalho Prático 4</titulo>
+        <subtitulo>Servidor com distruibuição de pessoas</subtitulo>
+        <date>2023-03-06</date>
+        <autor>
+            <nome>Jorge Lima</nome>
+            <id>pg50506</id>
+            <gitlink>https://github.com/LCMJ21/RPCW2023</gitlink>
+        </autor>
+        <uc>Representação e Processamento de Conhecimento na Web</uc>
+        <version>1.0</version>
+    </meta>
+    <resumo>
+        <p>O objetivo deste projeto é a criação de uma única pagina que permite criar e completar tarefas</p>
+        <p>A primeira tarefa é criar a homepage que mostra as tarefas a realizar e as realizadas, além de um formulário para adicionar tarefas</p>
+        <p>Posteriormente é gerado o handle ao pedido de adição de tarefas concatenado a informação a lista de tarefas a realizar</p>
+        <p>Por fim é criado o botão para cada tarefa a realizar e construído o seu comportamento, mover a tarefa de a realizar para terminada</p>
+    </resumo>
+    <resultados>
+        <resultado path="server.js">O servidor que permite fazer todos os diferentes pedidos</resultado>
+        <resultado path="templates.js">Função que gera a página html</resultado>
+        <resultado path="static.js">Carrega todos os recursos estáticos pedidos</resultado>
+    </resultados>
+</manifesto>
