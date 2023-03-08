@@ -68,7 +68,7 @@ exports.homepage = function(d, tarefas, tarefa_id){
                     <form class="w3-col m4" method="POST">
                         <input type="hidden" name="type" value="REMOVE">
                         <input type="hidden" name="id" value="${tarefas[i].id}">
-                        <button class="w3-circle w3-blue-grey w3-tiny" type="submit">x</button>
+                        <button class="w3-circle w3-red w3-tiny" type="submit">x</button>
                     </form>
                 </th>
             </tr>
@@ -114,7 +114,7 @@ exports.homepage = function(d, tarefas, tarefa_id){
                                         <form class="w3-col m4" method="POST">
                                             <input type="hidden" name="type" value="REMOVE">
                                             <input type="hidden" name="id" value="${tarefas[i].id}">
-                                            <button class="w3-circle w3-blue-grey w3-tiny" type="submit">x</button>
+                                            <button class="w3-circle w3-red w3-tiny" type="submit">x</button>
                                         </form>
                                     </th>
                                 </tr>

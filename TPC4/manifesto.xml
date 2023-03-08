@@ -13,14 +13,16 @@
         <version>1.0</version>
     </meta>
     <resumo>
-        <p>O objetivo deste projeto é a criação de uma única pagina que permite criar e completar tarefas</p>
+        <p>O objetivo deste projeto é a criação de uma única pagina que permite criar, editar, completar e remover tarefas</p>
         <p>A primeira tarefa é criar a homepage que mostra as tarefas a realizar e as realizadas, além de um formulário para adicionar tarefas</p>
-        <p>Posteriormente é gerado o handle ao pedido de adição de tarefas concatenado a informação a lista de tarefas a realizar</p>
-        <p>Por fim é criado o botão para cada tarefa a realizar e construído o seu comportamento, mover a tarefa de a realizar para terminada</p>
+        <p>Posteriormente é gerado o handle ao pedido de adição de tarefas, adicionando a tarefa ao <i>json-server</i></p>
+        <p>Depois são criados os botões para cada tarefa, completar e remover, e construído o seu comportamento</p>
+        <p>Por fim é necessário criar o botão de editar tarefas, que implicar a adição de um formulário para edição e a alteração da tarefa no <i>json-server</i></p>
     </resumo>
     <resultados>
-        <resultado path="server.js">O servidor que permite fazer todos os diferentes pedidos</resultado>
+        <resultado path="tarefas.xml">Ficheiro <i>json</i> com todas as tarefas</resultado>
         <resultado path="templates.js">Função que gera a página html</resultado>
+        <resultado path="server.js">O servidor que permite fazer todos os diferentes pedidos</resultado>
         <resultado path="static.js">Carrega todos os recursos estáticos pedidos</resultado>
     </resultados>
 </manifesto>
