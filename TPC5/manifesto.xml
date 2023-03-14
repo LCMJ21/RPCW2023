@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifesto>
+    <meta>
+        <titulo>Trabalho Prático 5</titulo>
+        <subtitulo>Servidor com distruibuição de pessoas com <i>express</i></subtitulo>
+        <date>2023-03-14</date>
+        <autor>
+            <nome>Jorge Lima</nome>
+            <id>pg50506</id>
+            <gitlink>https://github.com/LCMJ21/RPCW2023</gitlink>
+        </autor>
+        <uc>Representação e Processamento de Conhecimento na Web</uc>
+        <version>1.0</version>
+    </meta>
+    <resumo>
+        <p>O objetivo deste projeto é adaptação do <i>TPC4</i> usando a ferramenta <i>express</i></p>
+        <p>Para tal é necessário criar um servidor com <i>express</i> e instalar o <i>json-server</i> e o <i>axios</i></p>
+        <p>Adaptamos a pagina html para o ficheiro <i>index.pug</i>, que representa a única página do website</p>
+        <p>Depois no diretório <i>routes</i> definimos o comportamento relativo ao aceso aos endereços do website</p>
+        <p>Por fim é foi criado as queries ao <i>json-server</i> na diretoria <i>Controllers</i></p>
+    </resumo>
+    <resultados>
+        <resultado path="Controllers">Diretoria com os ficheiros que permitem obter as tarefas, fazendo querries ao <i>json-server</i></resultado>
+        <resultado path="node_modules">Dependências do projeto</resultado>
+        <resultado path="public">Diretoria com os recursos estáticos</resultado>
+        <resultado path="routes">Definição do comportamento relativo ao aceso aos endereços do website</resultado>
+        <resultado path="views">Páginas em <i>pug</i> do website</resultado>
+        <resultado path="tarefas.xml">Ficheiro <i>json</i> com todas as tarefas</resultado>
+        <resultado path="app.js">Ficheiro <i>javascript</i> que define o necessário para o uso da ferramenta <i>express</i></resultado>
+    </resultados>
+</manifesto>
