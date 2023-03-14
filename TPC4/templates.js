@@ -63,12 +63,12 @@ exports.homepage = function(d, tarefas, tarefa_id){
                     <form class="w3-col m4" action="/#editar" method="POST">
                         <input type="hidden" name="type" value="EDIT">
                         <input type="hidden" name="id" value="${tarefas[i].id}">
-                        <button class="w3-circle w3-yellow w3-tiny" type="submit">...</button>
+                        <button class="w3-circle w3-yellow w3-tiny" type="submit">✎</button>
                     </form>
                     <form class="w3-col m4" method="POST">
                         <input type="hidden" name="type" value="REMOVE">
                         <input type="hidden" name="id" value="${tarefas[i].id}">
-                        <button class="w3-circle w3-red w3-tiny" type="submit">x</button>
+                        <button class="w3-circle w3-red w3-tiny" type="submit">✗</button>
                     </form>
                 </th>
             </tr>

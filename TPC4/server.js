@@ -109,7 +109,6 @@ var alunosServer = http.createServer(function (req, res) {
                                         )
                                         break
                                 case "EDIT":
-                                    console.log(result.id)
                                     getHomepage(d, res, result.id)
                                     break
                                 case "REMOVE":
