@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifesto>
+    <meta>
+        <titulo>Trabalho Prático 6</titulo>
+        <subtitulo>Servidor com distruibuição de pessoas com <i>express</i></subtitulo>
+        <date>2023-03-23</date>
+        <autor>
+            <nome>Jorge Lima</nome>
+            <id>pg50506</id>
+            <gitlink>https://github.com/LCMJ21/RPCW2023</gitlink>
+        </autor>
+        <uc>Representação e Processamento de Conhecimento na Web</uc>
+        <version>1.0</version>
+    </meta>
+    <resumo>
+        <p>O objetivo deste projeto é adaptação do <i>TPC5</i> usando a ferramenta <i>mongodb</i></p>
+        <p>Para tal é necessário criar uma base de dados para guardar os registos com o mongodb</p>
+        <p>Criar os modelos que representam as tarefas</p>
+        <p>Torcar os pedidos ao <i>json-server</i> e inserir os pedidos ao mongodb</p>
+    </resumo>
+    <resultados>
+        <resultado path="Controllers">Diretoria com os ficheiros que permitem obter as tarefas, fazendo querries ao <i>json-server</i></resultado>
+        <resultado path="models">Modelos que respresentam as entidades do projeto, neste caso, as tarefas</resultado>
+        <resultado path="node_modules">Dependências do projeto</resultado>
+        <resultado path="public">Diretoria com os recursos estáticos</resultado>
+        <resultado path="routes">Definição do comportamento relativo ao aceso aos endereços do website</resultado>
+        <resultado path="views">Páginas em <i>pug</i> do website</resultado>
+        <resultado path="tarefas.xml">Ficheiro <i>json</i> com todas as tarefas</resultado>
+        <resultado path="app.js">Ficheiro <i>javascript</i> que define o necessário para o uso da ferramenta <i>express</i></resultado>
+    </resultados>
+</manifesto>
